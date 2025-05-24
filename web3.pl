@@ -33,16 +33,109 @@ reputation('reuters', 0.92).
 reputation('inconnu', 0.1).
 reputation('anonyme', 0.1).
 reputation('', 0.1).
+reputation('the washington post', 0.88).
+reputation('the new york times', 0.89).
+reputation('the economist', 0.86).
+reputation('scientific american', 0.87).
+reputation('nature journal', 0.93).
+reputation('science magazine', 0.92).
+reputation('the lancet', 0.94).
+reputation('forbes', 0.78).
+reputation('bloomberg', 0.82).
+reputation('time magazine', 0.81).
+reputation('the wall street journal', 0.85).
+reputation('ap news', 0.91).
+reputation('npr', 0.87).
+reputation('pbs', 0.86).
+reputation('smithsonian magazine', 0.84).
+reputation('national review', 0.72).
+reputation('the atlantic', 0.83).
+reputation('wired', 0.79).
+reputation('techcrunch', 0.77).
+reputation('the verge', 0.76).
+reputation('ars technica', 0.81).
+reputation('popular science', 0.75).
+reputation('new scientist', 0.84).
+reputation('science daily', 0.82).
+reputation('mit technology review', 0.85).
+reputation('harvard business review', 0.86).
+reputation('the conversation', 0.83).
+reputation('propublica', 0.87).
+reputation('the intercept', 0.73).
+reputation('vox', 0.74).
 
 affirmation_fiable('GIEC', 'réchauffement climatique').
 affirmation_fiable('OMS', 'COVID-19').
 affirmation_fiable('ONU', 'plastique').
 affirmation_fiable('NASA', 'pyramides').
+affirmation_fiable('NASA', 'exploration spatiale').
+affirmation_fiable('NASA', 'climat terrestre').
+affirmation_fiable('NASA', 'astrophysique').
+affirmation_fiable('WHO', 'santé mondiale').
+affirmation_fiable('CDC', 'maladies infectieuses').
+affirmation_fiable('FDA', 'médicaments').
+affirmation_fiable('EPA', 'environnement').
+affirmation_fiable('IMF', 'économie mondiale').
+affirmation_fiable('World Bank', 'développement').
+affirmation_fiable('IEEE', 'technologie').
+affirmation_fiable('ACM', 'informatique').
+affirmation_fiable('AAAS', 'science').
+affirmation_fiable('Royal Society', 'recherche').
+affirmation_fiable('Max Planck Society', 'physique').
+affirmation_fiable('CERN', 'physique des particules').
+affirmation_fiable('ESA', 'espace').
+affirmation_fiable('JAXA', 'astronautique').
+affirmation_fiable('ISRO', 'programme spatial').
+affirmation_fiable('NSF', 'financement scientifique').
+affirmation_fiable('NIH', 'recherche médicale').
+affirmation_fiable('UNESCO', 'éducation').
+affirmation_fiable('FAO', 'agriculture').
+affirmation_fiable('ILO', 'travail').
+affirmation_fiable('ITU', 'télécommunications').
+affirmation_fiable('WMO', 'météorologie').
+affirmation_fiable('IAEA', 'énergie atomique').
+affirmation_fiable('OECD', 'statistiques').
+affirmation_fiable('WTO', 'commerce').
+affirmation_fiable('ICRC', 'droit humanitaire').
+affirmation_fiable('Amnesty International', 'droits humains').
+affirmation_fiable('Human Rights Watch', 'violations').
+affirmation_fiable('Transparency International', 'corruption').
+affirmation_fiable('Pew Research Center', 'sondages').
 
 % Auteurs reconnus
 auteur_reconnu('Jean Dupont').
 auteur_reconnu('Dr. Martin').
 auteur_reconnu('Prof. Durand').
+auteur_reconnu('Stephen Hawking').
+auteur_reconnu('Neil deGrasse Tyson').
+auteur_reconnu('Michio Kaku').
+auteur_reconnu('Jane Goodall').
+auteur_reconnu('Richard Dawkins').
+auteur_reconnu('Steven Pinker').
+auteur_reconnu('Yuval Noah Harari').
+auteur_reconnu('Malcolm Gladwell').
+auteur_reconnu('Atul Gawande').
+auteur_reconnu('Oliver Sacks').
+auteur_reconnu('Brian Greene').
+auteur_reconnu('Lisa Randall').
+auteur_reconnu('Carl Sagan').
+auteur_reconnu('Rachel Carson').
+auteur_reconnu('E.O. Wilson').
+auteur_reconnu('Jared Diamond').
+auteur_reconnu('Daniel Kahneman').
+auteur_reconnu('Angela Duckworth').
+auteur_reconnu('Mary Roach').
+auteur_reconnu('Bill Bryson').
+auteur_reconnu('David Attenborough').
+auteur_reconnu('Sylvia Earle').
+auteur_reconnu('Paul Krugman').
+auteur_reconnu('Joseph Stiglitz').
+auteur_reconnu('Thomas Friedman').
+auteur_reconnu('Fareed Zakaria').
+auteur_reconnu('Christiane Amanpour').
+auteur_reconnu('Anderson Cooper').
+auteur_reconnu('David Brooks').
+auteur_reconnu('Maureen Dowd').
 
 % Mots-clés pour détection
 mot_citation('étude').
@@ -51,6 +144,36 @@ mot_citation('selon').
 mot_citation('données').
 mot_citation('rapport').
 mot_citation('analyse').
+mot_citation('méta-analyse').
+mot_citation('revue par les pairs').
+mot_citation('essai clinique').
+mot_citation('étude longitudinale').
+mot_citation('échantillon représentatif').
+mot_citation('intervalle de confiance').
+mot_citation('significativité statistique').
+mot_citation('méthodologie').
+mot_citation('bibliographie').
+mot_citation('citation').
+mot_citation('référence').
+mot_citation('source primaire').
+mot_citation('source secondaire').
+mot_citation('littérature académique').
+mot_citation('journal scientifique').
+mot_citation('conférence').
+mot_citation('symposium').
+mot_citation('colloque').
+mot_citation('publication universitaire').
+mot_citation('thèse doctorale').
+mot_citation('enquête').
+mot_citation('sondage').
+mot_citation('données empiriques').
+mot_citation('preuves tangibles').
+mot_citation('corpus documentaire').
+mot_citation('archives').
+mot_citation('recension').
+mot_citation('examen systématique').
+mot_citation('validation expérimentale').
+mot_citation('protocole de recherche').
 
 mot_emotionnel('incroyable').
 mot_emotionnel('choquant').
@@ -58,6 +181,36 @@ mot_emotionnel('scandaleux').
 mot_emotionnel('urgent').
 mot_emotionnel('alerte').
 mot_emotionnel('révélation').
+mot_emotionnel('effroyable').
+mot_emotionnel('terrifiant').
+mot_emotionnel('catastrophique').
+mot_emotionnel('miraculeux').
+mot_emotionnel('prodigieux').
+mot_emotionnel('hallucinant').
+mot_emotionnel('stupéfiant').
+mot_emotionnel('époustouflant').
+mot_emotionnel('révolutionnaire').
+mot_emotionnel('apocalyptique').
+mot_emotionnel('désastreux').
+mot_emotionnel('merveilleux').
+mot_emotionnel('fantastique').
+mot_emotionnel('horripilant').
+mot_emotionnel('exaspérant').
+mot_emotionnel('consternant').
+mot_emotionnel('édifiant').
+mot_emotionnel('saisissant').
+mot_emotionnel('bouleversant').
+mot_emotionnel('ahurissant').
+mot_emotionnel('renversant').
+mot_emotionnel('sidérant').
+mot_emotionnel('tragique').
+mot_emotionnel('dramatique').
+mot_emotionnel('spectaculaire').
+mot_emotionnel('impensable').
+mot_emotionnel('inimaginable').
+mot_emotionnel('inqualifiable').
+mot_emotionnel('inouï').
+mot_emotionnel('incroyable mais vrai').
 
 mot_suspect('mensonge').
 mot_suspect('faux').
@@ -65,6 +218,36 @@ mot_suspect('démenti').
 mot_suspect('complot').
 mot_suspect('secret').
 mot_suspect('caché').
+mot_suspect('élite secrète').
+mot_suspect('agenda caché').
+mot_suspect('vérité interdite').
+mot_suspect('officiels menteurs').
+mot_suspect('science corrompue').
+mot_suspect('médias vendus').
+mot_suspect('dissimulation').
+mot_suspect('manipulation massive').
+mot_suspect('propagande').
+mot_suspect('endoctrinement').
+mot_suspect('nous cachent tout').
+mot_suspect('on nous ment').
+mot_suspect('révélation choc').
+mot_suspect('vérité censurée').
+mot_suspect('théorie officielle').
+mot_suspect('version mensongère').
+mot_suspect('faits alternatifs').
+mot_suspect('preuves ignorées').
+mot_suspect('témoins réduits au silence').
+mot_suspect('scientifiques achetés').
+mot_suspect('journalistes complices').
+mot_suspect('gouvernement criminel').
+mot_suspect('expérience interdite').
+mot_suspect('technologie secrète').
+mot_suspect('découverte supprimée').
+mot_suspect('histoire réécrite').
+mot_suspect('vérité alternative').
+mot_suspect('preuves accablantes').
+mot_suspect('scandale étouffé').
+mot_suspect('conspiration').
 
 % Mots indiquant auteur anonyme
 mot_anonyme('anonyme').
